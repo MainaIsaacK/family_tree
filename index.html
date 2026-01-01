@@ -6,8 +6,8 @@
     <title>Document</title>
     <style>
       * {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color:rgb(85, 85, 85);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(85, 85, 85);
       }
       body {
         box-sizing: border-box;
@@ -21,7 +21,7 @@
         display: flex;
         flex-direction: column;
         padding: 0;
-        min-width: 400px;
+        min-width: 350px;
         max-width: 600px;
         margin: auto;
         gap: 20px;
@@ -40,7 +40,7 @@
         display: flex;
         flex-direction: row;
         width: 95%;
-        
+
         align-items: center;
         justify-content: flex-end;
         border-radius: 10px;
@@ -51,13 +51,13 @@
       }
       .parent-pic {
         border: 1px solid grey;
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
         background-color: rgb(201, 201, 201);
       }
       .pic-container {
-            margin-right: auto;
+        margin-right: auto;
       }
       .child {
         border: 1px solid grey;
@@ -66,13 +66,21 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        
+        justify-content: flex-start;
+        gap: 10px;
       }
 
       .material-symbols-outlined {
         font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
-      
+
         cursor: pointer;
+      }
+      .child-pic {
+        border: 1px solid grey;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: rgb(201, 201, 201);
       }
     </style>
     <link
@@ -87,7 +95,7 @@
           <div class="pic-container">
             <img src="" alt="" class="parent-pic" />
           </div>
-          <h4 >Wacera's family</h4>
+          <h4>Wacera's family</h4>
           <span class="material-symbols-outlined" id="wacera">
             arrow_drop_down
           </span>

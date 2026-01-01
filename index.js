@@ -65,7 +65,7 @@ items.forEach((item) => {
             parentChildren.forEach((child) => {
                   const newDiv = document.createElement('div');
                   newDiv.setAttribute('class', 'child');
-                  newDiv.innerHTML = `<h5>${child}</h5>`;
+                  newDiv.innerHTML = `<div><img src="" alt="" class="child-pic"/></div> <h5>${child}</h5>`;
                   document.querySelector(`.${parentId}`).appendChild(newDiv);
                   
             })
