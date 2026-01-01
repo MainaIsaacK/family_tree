@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color:rgb(85, 85, 85);
+      }
+      body {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      ul {
+        list-style: none;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        min-width: 400px;
+        max-width: 600px;
+        margin: auto;
+        gap: 20px;
+      }
+      .parent {
+        border: 1px solid green;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        align-items: center;
+        transition: all 0.1s linear;
+        padding: 10px;
+        gap: 20px;
+      }
+      .mini {
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        
+        align-items: center;
+        justify-content: flex-end;
+        border-radius: 10px;
+        gap: 20px;
+      }
+      .parent:hover {
+        border: 2px solid rgb(161, 161, 241);
+      }
+      .parent-pic {
+        border: 1px solid grey;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: rgb(201, 201, 201);
+      }
+      .pic-container {
+            margin-right: auto;
+      }
+      .child {
+        border: 1px solid grey;
+        width: 95%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+      }
+
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+      
+        cursor: pointer;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_drop_down"
+    />
+  </head>
+  <body>
+    <ul class="container">
+      <li class="parent wacera" id="wacera">
+        <div class="mini">
+          <div class="pic-container">
+            <img src="" alt="" class="parent-pic" />
+          </div>
+          <h4 >Wacera's family</h4>
+          <span class="material-symbols-outlined" id="wacera">
+            arrow_drop_down
+          </span>
+        </div>
+      </li>
+      <li class="parent wangare" id="wangare">
+        <div class="mini">
+          <div class="pic-container">
+            <img src="" alt="" class="parent-pic" />
+          </div>
+
+          <h4>Wangare's family</h4>
+          <span class="material-symbols-outlined" id="wangare">
+            arrow_drop_down
+          </span>
+        </div>
+      </li>
+      <li class="parent wambui" id="wambui">
+        <div class="mini">
+          <div class="pic-container">
+            <img src="" alt="" class="parent-pic" />
+          </div>
+
+          <h4>Wambui's family</h4>
+          <span class="material-symbols-outlined" id="wambui">
+            arrow_drop_down
+          </span>
+        </div>
+      </li>
+      <li class="parent njoki" id="njoki">
+        <div class="mini">
+          <div class="pic-container">
+            <img src="" alt="" class="parent-pic" />
+          </div>
+          <h4>Njoki's family</h4>
+          <span class="material-symbols-outlined" id="njoki">
+            arrow_drop_down
+          </span>
+        </div>
+      </li>
+      <li class="parent nyambura" id="nyambura">
+        <div class="mini">
+          <div class="pic-container">
+            <img src="" alt="" class="parent-pic" />
+          </div>
+          <h4>Nyambura's family</h4>
+          <span class="material-symbols-outlined" id="nyambura">
+            arrow_drop_down
+          </span>
+        </div>
+      </li>
+      <li class="parent maina" id="maina">
+        <div class="mini">
+          <div class="pic-container">
+            <img src="" alt="" class="parent-pic" />
+          </div>
+          <h4>Maina's family</h4>
+          <span class="material-symbols-outlined" id="maina">
+            arrow_drop_down
+          </span>
+        </div>
+      </li>
+      <li class="parent murugi" id="murugi">
+        <div class="mini">
+          <div class="pic-container">
+            <img src="" alt="" class="parent-pic" />
+          </div>
+          <h4>Murugi's family</h4>
+          <span class="material-symbols-outlined" id="murugi">
+            arrow_drop_down
+          </span>
+        </div>
+      </li>
+    </ul>
+    <script src="index.js" charset="UTF-8"></script>
+  </body>
+</html>
