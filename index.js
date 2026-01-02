@@ -56,6 +56,11 @@ const familyTree2 = {
             }
 };
 
+const yearToday = new Date().getFullYear();
+const footer = document.querySelector('footer');
+footer.innerHTML = `<div class="footer-container">
+      <p>Made with ❤️ by Isaac. ${yearToday}</p>
+</div>`;
 
 const items = document.querySelectorAll('.material-symbols-outlined');
 items.forEach((item) => {
